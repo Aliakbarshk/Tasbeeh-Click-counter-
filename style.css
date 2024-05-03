@@ -1,0 +1,83 @@
+
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+ font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+     
+      background-image: url(https://miro.medium.com/v2/resize:fit:1400/0*_XVRNiysM5YeSUac);
+    
+               overflow-y: hidden;
+               overflow-x: hidden;
+}
+
+
+.rectangle{
+    width: 190px;
+    height: 280px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30%;
+    position: absolute;
+    bottom: 40%;
+     backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px black;
+    color: #fff;
+    transition: 5s;
+
+
+}
+.rectangle:hover{
+    transform: scale(1.05);
+     box-shadow: -2px 2px 5px 2px rgb(179, 179, 179);
+}
+#btn{
+   
+    width: 50px;
+    height: 50px;
+    /* position: relative;
+    top: 60%;
+    right: 20%; */
+    border-radius: 70%;
+    background-color: darkgray;
+   box-shadow: -2px 2px 20px 2px;
+    transition: 90ms;
+    
+}
+#btn:active{
+    scale: 120%;
+    box-shadow: -2px 2px 25px 2px;
+}
+
+#resetBtn { 
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+
+ 
+}
+
+h2{
+     background-color: transparent;
+  
+      text-shadow: 1px 1px 10px ;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.cntr{ 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
